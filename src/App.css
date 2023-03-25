@@ -1,30 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
+.main {
+  background-image: radial-gradient(
+      circle at 66% 40%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 3%,
+      transparent 3%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 48% 3%,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.02) 3%,
+      transparent 3%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 64% 14%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 3%,
+      transparent 3%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 28% 95%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 3%,
+      transparent 3%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 44% 75%,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.02) 3%,
+      transparent 3%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 34% 71%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 59% 30%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 2% 90%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 21% 85%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 27%,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.02) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 97% 12%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 55% 89%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 11% 47%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 7%,
+      transparent 7%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 65% 40%,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 98% 38%,
+      rgba(255, 255, 255, 0.02) 0%,
+      rgba(255, 255, 255, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 88%,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(255, 255, 255, 0.01) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 47% 39%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    linear-gradient(0deg, hsla(278, 0%, 14%, 1), hsla(263, 0%, 14%, 1));
+}
+.navBar {
+  position: sticky;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 0 1px 0 white;
+}
 
-.main{
-  background-image: radial-gradient(circle at 66% 40%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 48% 3%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 64% 14%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 28% 95%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 44% 75%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 34% 71%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 59% 30%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 2% 90%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 21% 85%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 76% 27%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 97% 12%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 55% 89%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 11% 47%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 65% 40%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 98% 38%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 46% 88%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 47% 39%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),linear-gradient(0deg, hsla(278,0%,14%,1),hsla(263,0%,14%,1));  justify-content: center;
-  text-align: center;
+.list-box {
+  padding: 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) ;
-  gap: 20px;
-  padding: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  row-gap: 100px;
+  column-gap: 50px;
 }
 
-.movie-card{
-margin-left: 50px;
-height: 450px;
-width: 300px;
-border: 2px solid white;
-overflow: hidden;
-position: relative;
-border-radius: 15px;
-box-shadow: 1px 5px 5px 1px rgba(128, 128, 128, 0.229);
+.movie-card {
+  height: 450px;
+  width: 300px;
+  border: 2px solid white;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px 1px rgba(255, 255, 255, 0.229);
 }
-#img{
+#img {
   height: 100%;
   width: 100%;
 }
-.movie-content{
+.movie-content {
   justify-content: center;
   text-align: center;
   display: flex;
@@ -38,35 +171,109 @@ box-shadow: 1px 5px 5px 1px rgba(128, 128, 128, 0.229);
   border-radius: 15px;
   transition: 2s;
 }
-.movie-card:hover .movie-content{
-top: 50%;
-
+.movie-card:hover .movie-content {
+  top: 50%;
 }
-.title{
-  font-family: 'Titan One', cursive;
+.title {
+  font-family: "Titan One", cursive;
   position: absolute;
-  /* margin-top: 10px; */
   font-size: 40px;
   color: whitesmoke;
   -webkit-text-stroke: 1px black;
   box-shadow: 2px white;
 }
 
-.date{
+.date {
   position: absolute;
   top: 80%;
   color: whitesmoke;
   -webkit-text-stroke: 0.031rem red;
   font-size: 15px;
-  font-family: 'Titan One', cursive;
+  font-family: "Titan One", cursive;
   letter-spacing: 1px;
-
 }
-#rating{
-  margin-top: 10px;
+
+#rating {
   position: relative;
   top: 50%;
 }
 input[type="radio"] {
   display: none;
+}
+.add-btn-box {
+}
+
+form {
+  border-radius: 6px;
+  background-image: radial-gradient(
+      circle at 21% 15%,
+      hsla(210, 0%, 82%, 0.1) 0%,
+      hsla(210, 0%, 82%, 0.1) 45%,
+      transparent 45%,
+      transparent 83%,
+      transparent 83%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 84% 23%,
+      hsla(210, 0%, 82%, 0.1) 0%,
+      hsla(210, 0%, 82%, 0.1) 68%,
+      transparent 68%,
+      transparent 93%,
+      transparent 93%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 7% 76%,
+      hsla(210, 0%, 82%, 0.1) 0%,
+      hsla(210, 0%, 82%, 0.1) 52%,
+      transparent 52%,
+      transparent 75%,
+      transparent 75%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 59% 77%,
+      hsla(210, 0%, 82%, 0.1) 0%,
+      hsla(210, 0%, 82%, 0.1) 87%,
+      transparent 87%,
+      transparent 93%,
+      transparent 93%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 59% 5%,
+      hsla(210, 0%, 82%, 0.1) 0%,
+      hsla(210, 0%, 82%, 0.1) 54%,
+      transparent 54%,
+      transparent 56%,
+      transparent 56%,
+      transparent 100%
+    ),
+    linear-gradient(0deg, rgb(0, 1, 7), #242424);
+  font-size: 20px;
+  font-family: "Titan One", cursive;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: auto;
+  padding: 30px;
+}
+
+form > input {
+  padding: 0.7em;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form > label {
+  margin-top: 15px;
+}
+.search-box{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  gap: 30px;
 }
