@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import StarsRating from "./Components/StarsRating";
 
-const AddMovie = (handleAdd) => {
+const AddMovie = ({handleAdd}) => {
   const [name, setName] = useState("")
   const [image, setImage] = useState("")
   const [date, setDate] = useState("")
   const [rating, setRating] = useState(1)
     const handleRate=(x)=>setRating(x)
-    const handleSubmit=()=>{
+    const handleSubmit=(e)=>{
+      e.preventDefault()
         const film ={
-            id:Math.random(),name,date,rating
+            id:Math.random(),name,date,rating,image
         }
         handleAdd(film)
     }

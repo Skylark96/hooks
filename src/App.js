@@ -21,7 +21,7 @@ function App() {
       <AddMovie handleAdd={handleAdd}/>
       <Search rating={rating}  text={text} handletext={handletext} handleRate={handleRate}/>
       </nav>
-      <MovieList data={list.filter(el=>el.name.includes(text))}/>
+      <MovieList data={list.filter(el=>el.name.toLocaleLowerCase().includes(text.toLocaleLowerCase())&&el.rating>=rating)}/>
     </div>
   );
 }
